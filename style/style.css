@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: Hind Siliguri,sans-serif;
+    background-color: #f9f9fa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav.navstyle {
+    background: #e0efff;
+}
+
+.navdriver{
+    border: 1px solid;
+}
+
+.container.herofirst {
+    background: azure;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px 0px;
+    border: 1px solid;
+}
+
+
+.container .coursesx {
+    padding: 20px;
+    background-color: #1d2a39;
+}
+
+div.stylecrd {
+    margin: 0px;
+    padding: 12px 12px 0px;
+    align-items: center;
+    text-align: center;
+}
+
+div.card-body {
+    padding: 12px 0px;
+}
+
+img.part2img {
+    width: 100px;
+}
+
+section.bbb {
+    background: #1d2939;
+    padding: 50px 0px;
+}
+
+.card2part.col-6.col-md-3 {
+    background: #e9efff;
+    padding: 10px;
+    border-right: 1px solid;
+    border-radius: 20px;
+}
+
+.row.firstcard {
+    text-align: center;
+}
+
+.firsthead {
+    color: white;
+    text-align: center;
+}
+
+.card2part, .card3part {
+    background: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card2part button {
+    width: 265px;
+}
+
+.firstcard {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, 309px);
+    justify-content: center;
+}
+
+
+/* ---------- SECTION 3 --------- */
+img.part3img {
+    width: 260px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+section.ccc {
+    background: #f9f9fa;
+    padding: 70px 0px;
+}
+
+.ccwrapper {
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.secoundcard {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, 305px);
+    justify-content: center;
+}
+
+button.sobbtn{
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+
+
+
+/* ------------- DDD Section ------------- */
+.ddwrapper {
+    padding: 50px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.thirdcard {
+    display: grid;
+    gap: 33px;
+    grid-template-columns: repeat(auto-fit, 410px);
+    justify-content: center;
+}
+
+@media (max-width:992px) {
+    .thirdcard {
+        grid-template-columns: repeat(auto-fit, 305px);
+    }
+}
+
+.thirdcard1 {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, 628px);
+    justify-content: center;
+    margin-top: 100px;
+}
+
+@media (max-width:1400px) {
+    .thirdcard1 {
+        grid-template-columns: repeat(auto-fit, 405px);
+    }
+}
+
+
+@media (max-width:992px) {
+    .thirdcard1 {
+        grid-template-columns: repeat(auto-fit, 305px);
+    }
+}
+
+@media (max-width:768px) {
+    .thirdcard1 {
+        grid-template-columns: repeat(auto-fit, 520px);
+    }
+}
+
+@media (max-width:576px) {
+    .thirdcard1 {
+        grid-template-columns: repeat(auto-fit, 305px);
+    }
+}
+
+.card4part {
+    /* background: antiquewhite; */
+    text-align: center;
+    padding: 35px 0px;
+    border-radius: 20px;
+    border: 1px solid;
+}
